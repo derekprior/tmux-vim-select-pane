@@ -12,8 +12,8 @@ this functionality you will need to follow the instructions below (assumes
 
 1. Install tmux-vim-select-pane:
 ```bash
-brew update
-brew install tmux-vim-select-pane
+brew install
+https://raw.github.com/derekprior/tmux-vim-select-pane/master/tmux-vim-select-pane.rb
 ```
 
 2. Add the [vim-tmux-navigator][navigator] plugin to vim:
