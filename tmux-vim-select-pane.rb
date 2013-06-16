@@ -24,7 +24,7 @@ class TmuxVimSelectPane < Formula
       bind -n C-j run-shell 'tmux-vim-select-pane -D'
       bind -n C-h run-shell 'tmux-vim-select-pane -L'
       bind -n C-l run-shell 'tmux-vim-select-pane -R'
-      bind -n "C-\\" run-shell 'tmux-vim-select-pane -l'
+      bind -n "C-\\\\" run-shell 'tmux-vim-select-pane -l'
     EOS
   end
 end
