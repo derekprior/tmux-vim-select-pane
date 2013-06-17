@@ -12,7 +12,7 @@ class TmuxVimSelectPane < Formula
   end
 
   def caveats; <<-EOS.undent
-    This script must be used in conjuntion with settings in your tmux
+    This script must be used in conjunction with settings in your tmux
       configuration and with a vim plugin.
 
     Install the vim-tmux-navigator plugin here:
