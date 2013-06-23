@@ -12,6 +12,11 @@ class TmuxVimSelectPane < Formula
   end
 
   def caveats; <<-EOS.undent
+    DEPRECATED. This script should no longer be necessary. Instead the pane
+      switching logic can be inlined in the tmux configuration. For more on this
+      see the vim-tmux-navigator README at:
+        https://github.com/christoomey/vim-tmux-navigator.
+
     This script must be used in conjuntion with settings in your tmux
       configuration and with a vim plugin.
 
